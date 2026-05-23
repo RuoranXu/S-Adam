@@ -98,12 +98,8 @@ If you use this code, please cite the associated paper. Add the final BibTeX ent
 ```bibtex
 @article{sadam2026,
   title   = {Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization},
-  author  = {Anonymous},
-  journal = {Manuscript},
+  author  = {Ruoran Xu, Borong She, Xiaobo Jin, Qiufeng Wang},
+  journal = {ICML2026},
   year    = {2026}
 }
 ```
-
-## License
-
-No license has been specified yet. Add a `LICENSE` file before public release if you intend others to reuse or redistribute the code.
