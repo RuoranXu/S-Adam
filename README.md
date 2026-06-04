@@ -2,12 +2,7 @@
 
 This repository contains experimental code for **Singularity-aware Adam (S-Adam)**, an optimizer for non-smooth deep learning objectives. S-Adam extends AdamW with a local geometric instability probe and an adaptive damping factor, aiming to reduce gradient chattering near non-smooth singularities such as ReLU kinks and quantization operators.
 
-The accompanying manuscript is:
-
-> **Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization**
-
-Paper sources and figures are kept under [`Camera_Ready/`](Camera_Ready/).
-
+<a href='https://arxiv.org/abs/2605.29547'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/RuoranXu/S-Adam'><img src='https://img.shields.io/badge/Project-Page-green'></a>
 
 ## Environment
 
@@ -96,10 +91,13 @@ The optimizer uses `closure(backward=True)` for the real gradient update and `cl
 If you use this code, please cite the associated paper. Add the final BibTeX entry here after publication.
 
 ```bibtex
-@article{sadam2026,
-  title   = {Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization},
-  author  = {Ruoran Xu, Borong She, Xiaobo Jin, Qiufeng Wang},
-  journal = {ICML2026},
-  year    = {2026}
+@misc{xu2026singularityawareoptimizationrandomizedgeometric,
+      title={Singularity-aware Optimization via Randomized Geometric Probing: Towards Stable Non-smooth Optimization}, 
+      author={Ruoran Xu and Borong She and Xiaobo Jin and Qiufeng Wang},
+      year={2026},
+      eprint={2605.29547},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2605.29547}, 
 }
 ```
