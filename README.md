@@ -3,7 +3,7 @@
 This repository contains experimental code for **Singularity-aware Adam (S-Adam)**, an optimizer for non-smooth deep learning objectives. S-Adam extends AdamW with a local geometric instability probe and an adaptive damping factor, aiming to reduce gradient chattering near non-smooth singularities such as ReLU kinks and quantization operators.
 
 <a href='https://arxiv.org/abs/2605.29547'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> <a href='https://github.com/RuoranXu/S-Adam'><img src='https://img.shields.io/badge/Project-Page-green'></a>
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/license/mit)
 ## Environment
 
 The following environment is recommended for the experiments:
